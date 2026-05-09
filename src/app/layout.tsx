@@ -23,7 +23,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
       </head>
-      <body className="bg-background text-on-background antialiased overflow-x-hidden">
+      <body suppressHydrationWarning className="bg-background text-on-background antialiased overflow-x-hidden">
         {children}
       </body>
     </html>
