@@ -3,10 +3,10 @@ import Link from 'next/link';
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-on-background dark:bg-surface-container-lowest w-full relative">
+    <footer className="bg-on-background w-full relative">
       <div className="flex flex-col md:flex-row justify-between items-start w-full px-margin-mobile md:px-margin-desktop pt-16 pb-24 gap-12 max-w-container-max mx-auto">
         <div className="space-y-6 md:space-y-8 w-full md:w-1/3">
-          <div className="font-display-lg text-display-lg-mobile md:text-headline-lg text-surface dark:text-on-background uppercase font-bold leading-tight">
+          <div className="font-display-lg text-display-lg-mobile md:text-headline-lg text-surface uppercase font-bold leading-tight">
             ROOFTOP<br />HEROES
           </div>
           <p className="font-body-md text-sm md:text-body-md text-surface-variant opacity-50 max-w-xs">
