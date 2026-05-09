@@ -5,11 +5,11 @@ const Footer: React.FC = () => {
   return (
     <footer className="bg-on-background dark:bg-surface-container-lowest w-full relative">
       <div className="flex flex-col md:flex-row justify-between items-start w-full px-margin-mobile md:px-margin-desktop pt-16 pb-24 gap-12 max-w-container-max mx-auto">
-        <div className="space-y-8 w-full md:w-1/3">
-          <div className="font-display-lg text-headline-lg text-surface dark:text-on-background uppercase font-bold leading-none">
+        <div className="space-y-6 md:space-y-8 w-full md:w-1/3">
+          <div className="font-display-lg text-display-lg-mobile md:text-headline-lg text-surface dark:text-on-background uppercase font-bold leading-tight">
             ROOFTOP<br />HEROES
           </div>
-          <p className="font-body-md text-body-md text-surface-variant opacity-50">
+          <p className="font-body-md text-sm md:text-body-md text-surface-variant opacity-50 max-w-xs">
             Engineered for the elite. Protecting the skyline since 1994.
           </p>
           <div className="flex gap-6">
@@ -24,36 +24,36 @@ const Footer: React.FC = () => {
             </a>
           </div>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-12 w-full md:w-auto md:pt-32">
-          <div className="flex flex-col gap-8">
-            <span className="font-label-caps text-label-caps text-primary-container uppercase">Company</span>
-            <ul className="flex flex-col gap-3 font-body-md text-surface-variant">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 md:gap-12 w-full md:w-auto md:pt-32">
+          <div className="flex flex-col gap-6 md:gap-8">
+            <span className="font-label-caps text-[10px] md:text-label-caps text-primary-container uppercase tracking-widest">Company</span>
+            <ul className="flex flex-col gap-3 font-body-md text-sm md:text-body-md text-surface-variant">
               <li><Link className="hover:text-primary transition-colors cursor-pointer" href="#">About Us</Link></li>
               <li><Link className="hover:text-primary transition-colors cursor-pointer" href="#">Our Projects</Link></li>
               <li><Link className="hover:text-primary transition-colors cursor-pointer" href="#">Careers</Link></li>
             </ul>
           </div>
-          <div className="flex flex-col gap-8">
-            <span className="font-label-caps text-label-caps text-primary-container uppercase">Support</span>
-            <ul className="flex flex-col gap-3 font-body-md text-surface-variant">
+          <div className="flex flex-col gap-6 md:gap-8">
+            <span className="font-label-caps text-[10px] md:text-label-caps text-primary-container uppercase tracking-widest">Support</span>
+            <ul className="flex flex-col gap-3 font-body-md text-sm md:text-body-md text-surface-variant">
               <li><Link className="hover:text-primary transition-colors cursor-pointer" href="/faq">FAQ's</Link></li>
               <li><Link className="hover:text-primary transition-colors cursor-pointer" href="/contact">Contact</Link></li>
               <li><Link className="hover:text-primary transition-colors cursor-pointer" href="#">Privacy Policy</Link></li>
             </ul>
           </div>
-          <div className="flex flex-col gap-8 col-span-2 md:col-span-1">
-            <span className="font-label-caps text-label-caps text-primary-container uppercase">Office</span>
-            <p className="font-body-md text-surface-variant opacity-70">
+          <div className="flex flex-col gap-6 md:gap-8 sm:col-span-2 md:col-span-1">
+            <span className="font-label-caps text-[10px] md:text-label-caps text-primary-container uppercase tracking-widest">Office</span>
+            <p className="font-body-md text-sm md:text-body-md text-surface-variant opacity-70 leading-relaxed">
               88 Architectural Way<br />Industrial District, NY 10012
             </p>
           </div>
         </div>
       </div>
-      <div className="w-full px-margin-mobile md:px-margin-desktop py-6 border-t border-surface/5 max-w-container-max mx-auto flex justify-between items-center font-label-caps text-label-caps text-surface-variant opacity-40">
-        <span>© 2024 ROOFTOP HEROES. ENGINEERED PERMANENCE.</span>
-        <div className="flex gap-8">
-          <Link href="#" className="cursor-pointer">Terms</Link>
-          <Link href="#" className="cursor-pointer">Cookies</Link>
+      <div className="w-full px-margin-mobile md:px-margin-desktop py-6 border-t border-surface/5 max-w-container-max mx-auto flex flex-col md:flex-row justify-between items-center gap-4 font-label-caps text-[9px] md:text-label-caps text-surface-variant opacity-40">
+        <span className="text-center md:text-left uppercase tracking-widest">© 2024 ROOFTOP HEROES. ENGINEERED PERMANENCE.</span>
+        <div className="flex gap-8 uppercase tracking-widest">
+          <Link href="#" className="cursor-pointer hover:opacity-100 transition-opacity">Terms</Link>
+          <Link href="#" className="cursor-pointer hover:opacity-100 transition-opacity">Cookies</Link>
         </div>
       </div>
     </footer>

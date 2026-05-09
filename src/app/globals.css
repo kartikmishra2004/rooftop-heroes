@@ -79,15 +79,22 @@
   --font-label-caps: var(--font-geist);
 
   /* Font Sizes Utilities */
-  --text-display-xl: 120px;
-  --text-display-xl--line-height: 110px;
+  --text-display-xl: clamp(68px, 8vw, 120px);
+  --text-display-xl--line-height: 0.95;
   --text-display-xl--letter-spacing: -0.04em;
   --text-display-xl--font-weight: 300;
 
-  --text-display-lg: 80px;
-  --text-display-lg--line-height: 88px;
+  --text-display-xl-mobile: 40px;
+  --text-display-xl-mobile--line-height: 38px;
+  --text-display-xl-mobile--letter-spacing: -0.02em;
+
+  --text-display-lg: clamp(48px, 5vw, 80px);
+  --text-display-lg--line-height: 1;
   --text-display-lg--letter-spacing: -0.03em;
   --text-display-lg--font-weight: 300;
+
+  --text-display-lg-mobile: 32px;
+  --text-display-lg-mobile--line-height: 34px;
 
   --text-body-lg: 18px;
   --text-body-lg--line-height: 28px;
@@ -104,6 +111,8 @@
   --text-stats-num: 64px;
   --text-stats-num--line-height: 1;
   --text-stats-num--font-weight: 600;
+
+  --text-stats-num-mobile: 48px;
 
   --text-headline-lg: 48px;
   --text-headline-lg--line-height: 56px;

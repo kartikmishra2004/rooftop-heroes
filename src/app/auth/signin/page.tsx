@@ -6,7 +6,7 @@ import Button from '@/components/Button';
 
 export default function SignInPage() {
   return (
-    <div className="bg-background text-on-background font-body-md h-screen overflow-hidden flex flex-col">
+    <div className="bg-background text-on-background font-body-md min-h-screen flex flex-col">
       {/* Top Navigation Minimal Identity */}
       <header className="w-full px-margin-mobile md:px-margin-desktop py-3 flex justify-center border-b border-surface-variant/10 bg-surface/50 backdrop-blur-sm z-20">
         <Link href="/" className="font-display-lg text-[18px] font-bold tracking-tighter text-on-background cursor-pointer">
@@ -14,7 +14,7 @@ export default function SignInPage() {
         </Link>
       </header>
 
-      <main className="relative flex-grow w-full flex items-center justify-center p-4">
+      <main className="relative flex-grow w-full flex items-center justify-center p-4 py-12 md:py-16">
         {/* Industrial Texture Background Overlay */}
         <div 
           className="absolute inset-0 z-0 opacity-[0.03] pointer-events-none grayscale bg-cover bg-center"
