@@ -9,7 +9,7 @@ export default function FAQPage() {
       <Navbar />
       <main className="bg-surface">
         {/* FAQ Hero Section */}
-        <section className="relative px-margin-mobile md:px-margin-desktop pt-12 md:pt-24 pb-12 md:pb-16 max-w-container-max mx-auto">
+        <section className="relative px-margin-mobile md:px-margin-desktop pt-6 md:pt-24 pb-12 md:pb-16 max-w-container-max mx-auto">
           <div className="flex flex-col md:flex-row gap-8 items-start md:items-end">
             <h1 className="font-display-xl text-display-xl-mobile md:text-display-xl uppercase text-on-background flex-1">
               Common <br /> <span className="text-primary-container">Questions</span>
@@ -78,10 +78,10 @@ export default function FAQPage() {
         <section className="px-margin-mobile md:px-margin-desktop mb-16 max-w-container-max mx-auto">
           <div className="bg-on-background p-10 md:p-24 relative overflow-hidden flex flex-col items-center text-center rounded-2xl md:rounded-none">
             <div className="absolute inset-0 opacity-10 pointer-events-none">
-              <img 
-                alt="Architectural shot" 
+              <img
+                alt="Architectural shot"
                 className="w-full h-full object-cover grayscale"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRTn2kj5zQNTh3pW0JXpUK1Oa_aaE1nzf8xp5k8XI6rKnXDdZ2RRUSo3onT9gMl7g_VzbEqlRGooMqcXiqENEJB6a2oiO7b5wbqkJ7jfFk_Nnxf_8ThtIvzhWiy0kE-3ZiaJtEKtNpaGxu8xOwa7EMiy2q-ew8S46igvG0SfcP1hX4R547s-sHLpxrY9n8hU249aa7neCETxhqefqqN_rrDpJGb0tVHcmPZNwA6yaamR1H-0aTKjyC2xHrhlxcAiV8Just5V3_Nh8" 
+                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRTn2kj5zQNTh3pW0JXpUK1Oa_aaE1nzf8xp5k8XI6rKnXDdZ2RRUSo3onT9gMl7g_VzbEqlRGooMqcXiqENEJB6a2oiO7b5wbqkJ7jfFk_Nnxf_8ThtIvzhWiy0kE-3ZiaJtEKtNpaGxu8xOwa7EMiy2q-ew8S46igvG0SfcP1hX4R547s-sHLpxrY9n8hU249aa7neCETxhqefqqN_rrDpJGb0tVHcmPZNwA6yaamR1H-0aTKjyC2xHrhlxcAiV8Just5V3_Nh8"
               />
             </div>
             <h2 className="font-display-lg text-display-lg-mobile md:text-display-lg uppercase text-surface mb-6 relative z-10">

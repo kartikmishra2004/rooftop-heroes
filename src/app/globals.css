@@ -67,7 +67,7 @@
   --font-syne: "Syne", sans-serif;
   --font-geist: "Geist", sans-serif;
   --font-metropolis: "Metropolis", sans-serif;
-  
+
   /* Font Families Utilities */
   --font-display-xl: var(--font-syne);
   --font-display-lg: var(--font-syne);
@@ -126,9 +126,15 @@
 
   /* Animations */
   @keyframes marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    0% {
+      transform: translateX(0);
+    }
+
+    100% {
+      transform: translateX(-50%);
+    }
   }
+
   --animate-marquee: marquee 30s linear infinite;
 }
 

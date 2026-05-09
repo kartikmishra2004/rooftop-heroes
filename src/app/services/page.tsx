@@ -9,7 +9,7 @@ export default function ServicesPage() {
       <Navbar />
       <main className="bg-surface">
         {/* Hero Section: Expertise */}
-        <section className="relative pt-16 pb-16 md:pb-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto overflow-hidden">
+        <section className="relative pt-6 pb-16 md:pb-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto overflow-hidden">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-gutter items-end">
             <div className="md:col-span-8">
               <span className="font-label-caps text-[10px] md:text-label-caps text-primary mb-2 block uppercase">What We Do</span>
@@ -63,7 +63,7 @@ export default function ServicesPage() {
             <div className="md:col-span-5 relative">
               <img
                 className="w-full aspect-[3/4] object-cover grayscale hover:grayscale-0 transition-all duration-700"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuB6vPF2jmQVzFJ5BJjifRnY9ub17g-sqO2KXw_Gnng_AKdU5Vrc8wWke14hNt_h8tc9_mOYxCq-Pdn4Iw-0bE4fkIFPk1OKV6Ei7o8r_oUyFk94Ez3gC1PcZRGFh8u8upwDwBO5YeSBBBIS4JOiqFVPmAHEKFYXvGQT6iVmj03l93DXvQahkbgjE5IQ0MtNM4j2fQ2sEX_PFw6_1XKzTZ0fJPnL_DaPlsDTybUfCqKaY6YrYMvoEQaTdlpsbr5BC5Hyn3pXbBNilaY"
+                src="roof-10.jpg"
                 alt="Process"
               />
               <div className="absolute -bottom-4 -right-4 md:-bottom-6 md:-right-6 bg-primary-container p-4 md:p-8 text-on-primary-container">
