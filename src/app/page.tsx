@@ -2,6 +2,9 @@ import React from 'react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import Button from '@/components/Button';
+import GoogleReviews from '@/components/GoogleReviews';
+import Partners from '@/components/Partners';
+import MapSection from '@/components/MapSection';
 
 export default function Home() {
   return (
@@ -54,6 +57,12 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Google Reviews Section */}
+        <GoogleReviews />
+
+        {/* Map Section */}
+        <MapSection />
 
         {/* Stats Section */}
         <section className="py-16 md:py-24 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
@@ -138,6 +147,9 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Partners Section */}
+        <Partners />
 
         {/* Services Section */}
         <section className="py-16 md:py-32 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
